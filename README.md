@@ -1,1 +1,1 @@
-# tic_tac_toe
+[![banner](https://raw.githubusercontent.com/khe4oyan/repo_banners/main/banners/tic_tac_toe.png)](https://khe4oyan.github.io/tic_tac_toe/)
