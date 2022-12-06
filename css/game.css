@@ -1,0 +1,51 @@
+body{
+  min-height: 100vh;
+  --bg-color: rgb(3, 11, 19);
+  background-color: var(--bg-color);
+}
+.game{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  background-color: gainsboro;
+}
+
+.game__sq{
+  --size: 4rem;
+  background-color: var(--bg-color);
+
+  width: var(--size);
+  height: var(--size);
+}
+
+.game__sq_x{
+  background: url('https://icones.pro/wp-content/uploads/2021/08/icone-x-verte.png') center center / cover;
+}
+.game__sq_o{
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Red_circle_frame_transparent.svg/1200px-Red_circle_frame_transparent.svg.png') center center / cover;
+}
+.game__sq_x, .game__sq_o{
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: var(--bg-color);
+}
+
+.box {
+  color: white;
+}
+.statistic-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.player_icon{
+  width: 40px;
+}
+.player_x {
+  color: rgb(9, 66, 9);
+}
+.player_o {
+  color: rgb(129, 11, 11);
+}
